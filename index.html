@@ -201,9 +201,7 @@
 
     // Updated Trigger for PDF CV Download
     function triggerPrintCV() {
-        // Opens the PDF file directly in a new tab
-        // Note: Change 'Aurell_Andry_Rachman_CV.pdf' to your actual PDF file name or Google Drive link
-        const pdfUrl = "Aurell_Andry_Rachman_CV.pdf";
+        const pdfUrl = "https://drive.google.com/drive/folders/1Vku4EVDZ8R_lxYt8Vhaed_JXjLuaCgFZ?usp=sharing";
         window.open(pdfUrl, '_blank');
     }
 </script>
@@ -289,7 +287,7 @@
                 <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Direct Actions</div>
                 <button onclick="triggerPrintCV()" class="click-animate w-full flex items-center justify-center gap-2 bg-gradient-to-r from-activeBlue-500 to-activeBlue-600 hover:from-activeBlue-600 hover:to-activeBlue-700 text-white font-semibold py-3 px-4 rounded-xl shadow-lg shadow-activeBlue-100 hover:shadow-activeBlue-200 transition-all text-sm">
                     <i class="fa-solid fa-cloud-arrow-down animate-bounce"></i>
-                    <span>Download PDF CV</span>
+                    <span>Download ATS CV</span>
                 </button>
             </div>
         </nav>
@@ -350,7 +348,7 @@
                 <!-- Download Action (Top) -->
                 <button onclick="triggerPrintCV()" class="click-animate flex items-center gap-2 px-3.5 py-2 bg-activeBlue-500 hover:bg-activeBlue-600 border border-activeBlue-600 rounded-xl text-white transition-all text-xs font-semibold shadow-sm shadow-activeBlue-100">
                     <i class="fa-solid fa-file-pdf"></i>
-                    <span>Download CV</span>
+                    <span>Download ATS CV</span>
                 </button>
             </div>
         </header>
